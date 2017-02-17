@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+img,a img{border-style:none;border-width:0;}
+a,a:hover{ text-decoration:none}
+html {margin:0 auto;}
+ol,ul,li{list-style: none;}:focus {outline: 0;}
+body{color:#666}
+a:hover {color:#009966;}
+.main{ width:912px; margin:0 auto}
+
+.slider-scroll{margin-top:12px; overflow:hidden;height:413px;}  
+#showArea{ width:600px; float:left; height:413px; border:1px solid #bebebe ; border-right:none }
+#showArea img{ opacity:0; display:none;}
+#scrollDiv{float:left; width:240px; height:415px; background:url(img/slider_side.jpg) 0 0 no-repeat}  
+#scrollDiv ul{ padding:19px 0 0 0}
+#scrollDiv li{width:220px;  height:57px;  padding:10px 0 10px 26px; cursor:pointer; font-family:楷体;} 
+#scrollDiv li.on{ background:#003030; position:relative;}
+#scrollDiv li a{display:block; font-size:16px; height:35px; line-height:35px; color:#fff;}
+#scrollDiv li span{display:block; color:#66ffff; font-size:14px; height:15px; line-height:15px; }
+#scrollDiv li span.entity-triangle{ display:none; }
+#scrollDiv li.on span.entity-triangle{ position:absolute; top:31px; ; display:block; width:6px; height:22px; background:url(img/triangle2.png) 0 0 no-repeat; z-index:99;}
+
+
+#bookrack { width: 750px; margin: auto; } 
+#bookrack a { text-align: center; text-decoration: none; font-size: 12px; } 
+#bookrack span { display: none; position: absolute; color: #fff; background: #000000; background: rgba(0, 0, 0, 0.5); padding: 5px; top: 30px; left: 0; } 
+#bookrack span big { color: red; font-size: 14px; } 
+#bookrack img { width: 100%; height: 100%; display: block; border: 0; }

@@ -1,0 +1,32 @@
+/* Button style */
+.progress-button {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+.progress-button button {
+	display: block;
+	padding: 0;
+	width: 80px;
+	height: 40px;
+	border: 2px solid #40bfe8;
+	border-radius: 40px;
+	background: transparent;
+	color: #40bfe8;
+	letter-spacing: 1px;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.progress-button button:hover {
+	background-color: #40bfe8;
+	color: #fff;
+}
+
+.progress-button button:focus {
+	outline: none;
+}
+
+
+
